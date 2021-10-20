@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 20px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 20px;
+    filter: invert(1);
+}
+#navbar {
+    background-color: #ff0202;
+    padding: 15px 10px;
+    font-family: 'Merriweather', serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+#navbar li a:hover{
+    color: black;
+    
+}
+
+#introSection {
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    height: 650px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 20px;
+    
+}
+#missionSection{
+    height: 200px;
+    background-color: cyan;
+}
+#missionSection h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Merriweather', serif;
+}
+.card{
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 25%;
+    margin: 15px 57px;
+    height: 120px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 5px;
+    margin-top: 5px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 70px;
+    padding: 0px 14px;
+    margin: 5px 5px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content {
+    padding: 0 25px;
+}
+.card-content p {
+    font-size: 20px;
+}
+#sponsorsSection{
+    height: 200px;
+    background-color: yellow;
+}
+#sponsorsSection h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Merriweather', serif;
+}
+#sponsors{
+    height:10px;
+    max-width:450px;
+    margin: 10px auto;
+}
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+#footer{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color:black;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+}

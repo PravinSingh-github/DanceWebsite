@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+h3{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    min-height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 15px;
+}
+.container h2{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    font-size: 12px;
+    width: 30%;
+    padding: 9px;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 25px;
+}
